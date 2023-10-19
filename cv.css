@@ -1,0 +1,150 @@
+/*Common*/
+body {font−size:14 px; font−family:Arial; background-image: url('wallpaper.jpg'); background-size: cover;}
+
+.centreDiv {
+	margin: auto;
+	padding: 10px
+}
+
+nav ul li{
+	padding : 0 20px 0 20px;
+}
+
+.subtitles {
+	font-family: Geneva;
+	text-decoration: underline;
+}
+
+/* mouse over link yellow */
+#top-menu a:hover {
+	color: #FFDE00;
+}
+/* selected link yellow */
+#top-menu a:active {
+	color: #FFDE00;
+}
+/* !IMPORTANT ONLY ADD THIS CLASS TO YOUR ACTIVE web LINK ( Color yellow )*/
+.activeweb a {
+	color: #FFDE00 !important
+}
+	
+.clear {
+    clear: both;
+}
+
+p {
+	text-align: left;
+}
+
+/*header*/
+* {box-sizing: border-box;}
+
+/* Style the header with a grey background and some padding */
+
+header {
+  overflow: hidden;
+  background-color: #1a1a1a;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the header links */
+header a {
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  margin: auto;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+header a:hover {
+  color: #d9d9d9;
+  background-color: orange;
+}
+
+/*footer*/
+footer {
+	width: 100%;
+	color: #f2f2f2;
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4);/* Black w/opacity/see-through */
+	text-align: center;
+}
+		
+/*skills*/
+.program {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
+}
+
+/*Taken Module*/
+/*school photo size */
+.school {
+	width: 300px;
+	height: 200px;
+}
+
+/*dropdown*/
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #696969;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #808080;
+}
